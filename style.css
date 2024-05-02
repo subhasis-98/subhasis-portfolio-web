@@ -1,0 +1,224 @@
+body {
+    /* background-image: url(2806.jpg); */
+    background-color: ghostwhite;
+    background-size: cover;
+    opacity: 5;
+    font-family: "Concert One", sans-serif;
+    /* font-weight: 400; */
+    /* font-style: normal; */
+    /* overflow-y: hidden; */
+
+}
+
+#section-1 {
+    height: 100vh;
+}
+
+#my {
+    height: 120px;
+    width: 160px;
+    border-radius: 20px;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
+}
+
+.main-card {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
+    height: 500px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 0 40px;
+}
+
+.main-card-para-1 {
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.sub-card-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-links {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(182, 225, 252);
+}
+
+.social-icon {
+    /* mix-blend-mode: multiply; */
+    height: 15px;
+    width: 15px;
+}
+
+.sub-card-2 {
+    box-shadow: 0 0 10px rgba(126, 124, 223, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.social-2-icon {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(182, 225, 252);
+    border-radius: 20%;
+}
+
+.contact-span {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    /* border-top: 1px solid grey; */
+    border-bottom: 1px solid grey;
+    /* border-image-outset: 50px; */
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0866ff;
+    color: aliceblue;
+    text-decoration: none;
+}
+.main-card-2 {
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
+    /* background-color: #0866ff; */
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 0 40px;
+}
+
+.flexxx {
+    /* height: 250px;
+    width: 500px; */
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.block {
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgba(115, 0, 255, 0.216);
+    margin: 5px;
+}
+
+.flex-box-texts {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#colo {
+    background-color: darksalmon;
+}
+
+#colo-1 {
+    background-color: whitesmoke;
+}
+
+.main-card-3 {
+    position: absolute;
+    top: 0px;
+    left: 1000px;
+    /* background-color: aliceblue; */
+    background-color: aliceblue;
+    box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
+    height: 500px;
+    width: 50px;
+    border-radius: 10px;
+    padding: 0 40px;
+}
+
+.social-icon-3 {
+    /* margin-top: ; */
+    height: 40px;
+    width: 40px;
+    margin-top: 40px;
+    /* background-color: rgb(182, 225, 252); */
+    box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
+    border-radius: 20%;
+}
+
+.social-links-3 {
+    margin-top: 50px;
+}
+
+#section-2 {
+    /* margin-top: 100vh; */
+    background-color: #0866ff;
+}
+
+.section-3-project {
+    height: 100vh;
+    /* background-color: #0866ff; */
+}
+.project-section-heading{
+    text-align: center;
+    font-size: 50px;
+}
+
+.project-section-flex {
+    padding: 40px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px 30px;
+
+}
+
+.pblock {
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(115, 0, 255, 0.507);
+    margin: 5px;
+}
+
+.flex-box-texts {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#colo {
+    background-color: darksalmon;
+}
+
+#colo-1 {
+    background-color: whitesmoke;
+}
