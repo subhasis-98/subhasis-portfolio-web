@@ -11,6 +11,7 @@ body {
 }
 
 #section-1 {
+    padding: 30px;
     height: 100vh;
     /* background-color: #0866ff; */
     display: flex;
@@ -30,7 +31,8 @@ body {
     box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
     overflow: hidden;
 }
-#card-containt{
+
+#card-containt {
     position: relative;
     top: -60px;
 }
@@ -45,7 +47,7 @@ body {
 }
 
 .main-card-para-1 {
-    /* margin-top: 80px; */
+    margin-top: 10px 0px;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -57,11 +59,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 0px 10px;
+    gap: 10px 10px;
+    margin: 10px auto;
 }
 
 .social-links {
-    margin-top: 10px ;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,6 +101,15 @@ body {
     /* border-top: 1px solid grey; */
     border-bottom: 1px solid grey;
     /* border-image-outset: 50px; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: purple;
 }
 
 .btn {
@@ -190,17 +202,22 @@ body {
         justify-content: space-evenly;
         gap: 20px;
     }
-      
 
     #my {
-        height: 140px;
-        width: 170px;
-        position: absolute;
-        /* left: ; */
-        top: 25px;
+        height: 120px;
+        width: 150px;
+        position: relative;
+        left: 90px;
+        top: -50px;
         border-radius: 10px;
         z-index: 1;
         box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
+        overflow: hidden;
+    }
+
+    #card-containt {
+        position: relative;
+        top: -60px;
     }
 
     .main-card {
@@ -354,6 +371,10 @@ input {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
     padding: 10px;
+}
+
+input:hover {
+    box-shadow: 0 0 10px rgba(4, 0, 255, 0.397);
 }
 
 #message {
