@@ -22,12 +22,17 @@ body {
 #my {
     height: 120px;
     width: 150px;
-    position: absolute;
-    left: 175px;
-    top: 25px;
+    position: relative;
+    left: 60px;
+    top: -50px;
     border-radius: 10px;
     z-index: 1;
     box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
+    overflow: hidden;
+}
+#card-containt{
+    position: relative;
+    top: -60px;
 }
 
 .main-card {
@@ -40,7 +45,7 @@ body {
 }
 
 .main-card-para-1 {
-    margin-top: 80px;
+    /* margin-top: 80px; */
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -52,11 +57,11 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 0px 10px;
 }
 
 .social-links {
-    margin: 10px 0;
+    margin-top: 10px ;
     display: flex;
     align-items: center;
     justify-content: center;
