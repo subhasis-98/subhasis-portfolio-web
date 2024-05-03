@@ -1,7 +1,7 @@
 body {
     margin: 0%;
     padding: 0;
-    background-image: url(2806.jpg);
+    /* background-image: url(2806.jpg); */
     background-color: ghostwhite;
     /* background-color: red; */
     background-size: cover;
@@ -9,7 +9,7 @@ body {
     font-family: "Concert One", sans-serif;
     /* font-weight: 400; */
     /* font-style: normal; */
-    /* overflow-y: hidden; */
+    overflow-x: hidden;
 
 }
 
@@ -125,11 +125,15 @@ a:hover {
     border: none;
 }
 
+.btn:hover {
+    color: #0866ff;
+    background-color: aliceblue;
+    border: 1px solid #0866ff;
+}
+
 .main-card-2 {
     background-color: aliceblue;
     box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
-    /* background-color: #0866ff; */
-    /* border: 1px solid black; */
     height: 500px;
     width: 500px;
     border-radius: 10px;
@@ -137,15 +141,11 @@ a:hover {
 }
 
 .flexxx {
-    /* height: 250px;
-    width: 500px; */
-    /* background-color: blueviolet; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 .block {
@@ -189,7 +189,7 @@ a:hover {
 
     /* background-color: rgb(182, 225, 252); */
     box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
-    border-radius: 20%;
+    border-radius: 50%;
 }
 
 .social-links-3 {
@@ -261,15 +261,126 @@ a:hover {
         width: 40px;
         /* background-color: rgb(182, 225, 252); */
         box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
-        border-radius: 20%;
+        border-radius: 50%;
     }
 
     .social-links-3 {
         margin-top: 0px;
+
     }
 
 }
 
+/* ////////////////////////////////////////////////// */
+.resume-card {
+    background-color: aliceblue;
+    /* background-color: red; */
+    box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
+    height: 500px;
+    width: 500px;
+    width: 80vw;
+    border-radius: 10px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.ddd333 h1 {
+    margin: 25px auto;
+    text-align: center;
+}
+
+#main22 {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin: 10px; */
+}
+
+.resume-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.resume-sub-div {
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(115, 0, 255, 0.216);
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 15px;
+}
+
+.resume-card-para {
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-card-para-head {
+    color:#0866ff;
+    font-size: 10px;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.res-img{
+    height: 25px;
+    width: 27px;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 560px) {
+    .resume-card {
+        background-color: aliceblue;
+        box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
+        height: 500px;
+        width: 80vw;
+        border-radius: 10px;
+        /* padding: 0 40px; */
+    }
+
+    #main22 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        /* margin: 10px; */
+    }
+
+    .ddd333 h1 {
+        margin: 25px auto;
+        text-align: center;
+    }
+
+    .resume-main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .resume-sub-div {
+        height: 60px;
+        width: 100px;
+        border-radius: 10px;
+        box-shadow: 0 0 50px rgba(115, 0, 255, 0.216);
+        background-color: aliceblue;
+        margin: 5px;
+        /* padding: 15px; */
+    }
+}
+
+/* ////////////////////////////////////////////////// */
 #btnn {
     /* margin-top: 20px; */
     padding: 10px;
@@ -277,6 +388,13 @@ a:hover {
     background-color: #0866ff;
     color: aliceblue;
     text-decoration: none;
+    border: none;
+}
+
+#btnn:hover {
+    border: 1px solid #0866ff;
+    color: #0866ff;
+    background-color: aliceblue;
 }
 
 #section-heading {
@@ -317,6 +435,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 560px) {
+
     .project-section-flex {
         width: 90vw;
         margin: 0 auto;
@@ -369,7 +488,7 @@ input {
     height: 5vh;
     width: 20vw;
     /* height: 40px;
-    width: 200px; */
+    width: 100px; */
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
