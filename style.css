@@ -1,6 +1,9 @@
 body {
+    margin: 0%;
+    padding: 0;
     background-image: url(2806.jpg);
     background-color: ghostwhite;
+    /* background-color: red; */
     background-size: cover;
     opacity: 5;
     font-family: "Concert One", sans-serif;
@@ -342,7 +345,7 @@ a:hover {
     width: 80vw;
     margin: 0 auto;
     border-radius: 10px;
-    /* background-color: #0866ff; */
+    background-color: rgba(240, 248, 255, 0.935);
     box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
     height: 50vh;
     display: flex;
@@ -382,12 +385,14 @@ input:hover {
 }
 
 footer {
+    margin: 0;
     height: 20vh;
     background-color: aliceblue;
     box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
 }
 
 .footer-para {
+    /* margin: 0; */
     padding: 40px;
     font-size: 40px;
     text-align: center;
