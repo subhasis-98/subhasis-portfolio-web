@@ -1,5 +1,5 @@
 body {
-    /* background-image: url(2806.jpg); */
+    background-image: url(2806.jpg);
     background-color: ghostwhite;
     background-size: cover;
     opacity: 5;
@@ -24,7 +24,7 @@ body {
     height: 120px;
     width: 150px;
     position: relative;
-    left: 60px;
+    left: 50px;
     top: -50px;
     border-radius: 10px;
     z-index: 1;
@@ -207,7 +207,7 @@ a:hover {
         height: 120px;
         width: 150px;
         position: relative;
-        left: 90px;
+        left: 60px;
         top: -50px;
         border-radius: 10px;
         z-index: 1;
@@ -224,7 +224,7 @@ a:hover {
         background-color: aliceblue;
         /* background-color: red; */
         box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
-        width: 60vw;
+        width: 70vw;
         height: 100%;
         border-radius: 10px;
         padding: 0 40px;
