@@ -1,18 +1,17 @@
 body {
+    /* font-family: "Sora", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal; */
+    font-family: "euclid_circular_a", "Arial", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     margin: 0%;
     padding: 0;
-    /* background-image: url(2806.jpg); */
     background-color: ghostwhite;
-    /* background-color: red; */
+    background-image: url(2806.jpg);
     background-size: cover;
     opacity: 5;
-    font-family: "Sora", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
     overflow-x: hidden;
 }
-
 
 #section-1 {
     padding: 30px;
@@ -102,9 +101,7 @@ body {
     align-items: center;
     justify-content: start;
     gap: 10px;
-    /* border-top: 1px solid grey; */
     border-bottom: 1px solid grey;
-    /* border-image-outset: 50px; */
 }
 
 a {
@@ -139,6 +136,7 @@ a:hover {
     width: 500px;
     border-radius: 10px;
     padding: 0 40px;
+    text-align: justify;
 }
 
 .flexxx {
@@ -188,7 +186,7 @@ a:hover {
     height: 40px;
     width: 40px;
 
-    /* background-color: rgb(182, 225, 252); */
+    background-color: rgb(182, 225, 252);
     box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
     border-radius: 50%;
 }
@@ -379,6 +377,13 @@ a:hover {
         background-color: aliceblue;
         margin: 5px;
         /* padding: 15px; */
+    }
+
+    .resume-card-para {
+        font-size: 10px;
+        text-transform: capitalize;
+        margin: 0;
+        padding: 0;
     }
 }
 
