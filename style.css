@@ -30,7 +30,7 @@ body {
     /* left: 50px; */
     top: -50px;
     /* border-radius: 10px; */
-    border-radius: 47%;
+    border-radius:50%;
     z-index: 1;
     /* box-shadow: 0 0 10px rgba(4, 0, 255, 0.1); */
     overflow: hidden;
@@ -217,7 +217,7 @@ a:hover {
         left: 60px;
         top: -50px; */
         /* border-radius: 10px; */
-        border-radius: 47%;
+        border-radius: 50%;
         z-index: 1;
         box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
         overflow: hidden;
