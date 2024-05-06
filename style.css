@@ -1,9 +1,9 @@
 body {
-    /* font-family: "Sora", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: <weight>;
-        font-style: normal; */
-    font-family: "euclid_circular_a", "Arial", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    /* font-family: "euclid_circular_a", "Arial", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
     margin: 0%;
     padding: 0;
     background-color: ghostwhite;
@@ -24,10 +24,10 @@ body {
 }
 
 #my {
-    height: 120px;
-    width: 150px;
+    height: 100px;
+    width: 130px;
     position: relative;
-    left: 50px;
+    /* left: 50px; */
     top: -50px;
     border-radius: 10px;
     z-index: 1;
@@ -47,6 +47,10 @@ body {
     width: 250px;
     border-radius: 10px;
     padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-card-para-1 {
@@ -206,11 +210,11 @@ a:hover {
     }
 
     #my {
-        height: 120px;
-        width: 150px;
-        position: relative;
+        height: 100px;
+        width: 130px;
+        /* position: relative;
         left: 60px;
-        top: -50px;
+        top: -50px; */
         border-radius: 10px;
         z-index: 1;
         box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
@@ -231,6 +235,10 @@ a:hover {
         border-radius: 10px;
         padding: 0 40px;
         margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .main-card-2 {
