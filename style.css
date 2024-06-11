@@ -3,6 +3,7 @@ body {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+    color: #25265e;
     /* font-family: "euclid_circular_a", "Arial", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
     margin: 0%;
     padding: 0;
@@ -30,7 +31,7 @@ body {
     /* left: 50px; */
     top: -50px;
     /* border-radius: 10px; */
-    border-radius:50%;
+    border-radius: 50%;
     z-index: 1;
     /* box-shadow: 0 0 10px rgba(4, 0, 255, 0.1); */
     overflow: hidden;
