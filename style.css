@@ -435,13 +435,13 @@ a:hover {
 }
 
 .project-image-links {
-    height: 220px;
-    width: 350px;
+    height: 200px;
+    width: 300px;
 }
 
 .pblock {
-    height: 220px;
-    width: 350px;
+    height: 200px;
+    width: 300px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 15px rgba(115, 0, 255, 0.507);
