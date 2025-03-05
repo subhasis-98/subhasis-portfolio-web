@@ -8,7 +8,7 @@ body {
     margin: 0%;
     padding: 0;
     background-color: ghostwhite;
-    background-image: url(2806.jpg);
+    /* background-image: url(2806.jpg); */
     background-size: cover;
     opacity: 5;
     overflow-x: hidden;
@@ -80,6 +80,7 @@ body {
     border-radius: 20%;
     height: 25px;
     width: 25px;
+    color: black;
     background-color: rgb(182, 225, 252);
 }
 
@@ -110,12 +111,12 @@ body {
     border-bottom: 1px solid grey;
 }
 
-a {
+.anc {
     text-decoration: none;
     color: black;
 }
 
-a:hover {
+.anc:hover {
     color: purple;
 }
 
@@ -154,25 +155,69 @@ a:hover {
 }
 
 .block {
+    
     height: 100px;
     width: 200px;
     border-radius: 20px;
     box-shadow: 0 0 100px rgba(115, 0, 255, 0.216);
     margin: 5px;
+    overflow: hidden;
+}
+.block_link{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        text-transform: capitalize;
+        text-align: center;
+        font-style: 12px;
+        font-weight: 800;
+        letter-spacing: 1px;
+        transition: all 0.4s;
+    /* color: #eaf3fa; */
 }
 
-.flex-box-texts {
-    text-transform: capitalize;
-    text-align: center;
+
+
+/* For .col-1 */
+.col-1 {
+    background-color: #05555c;
+    color: #eaf3fa;
 }
 
-#colo {
-    background-color: darksalmon;
+
+.col-1 a {
+    background-color: #05555c;
+    color: #eaf3fa;
+    height: 100%;
+    width: 100%;
 }
 
-#colo-1 {
-    background-color: whitesmoke;
+/* Fix the hover effect */
+.col-1 a:hover {
+    background-color: #eaf3fa;
+    color: #05555c;
 }
+
+/* For .col-2 */
+.col-2 {
+    background-color: #eaf3fa;
+    color: #05555c;
+}
+
+.col-2 a {
+    background-color: #eaf3fa;
+    color: #05555c;
+    height: 100%;
+        width: 100%;
+}
+
+/* Add hover effect for .col-2 links */
+.col-2 a:hover {
+    background-color: #05555c;
+    color: #eaf3fa;
+}
+
 
 .main-card-3 {
     width: 100px;

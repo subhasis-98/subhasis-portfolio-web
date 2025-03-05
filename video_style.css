@@ -21,10 +21,11 @@ body{
 
 .text {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100%;
     background: rgba(0, 0, 0, 0.6);
+    background:#05555c;
     color: white;
     text-align: center;
     padding: 10px;
