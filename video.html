@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="video_style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Concert+One&family=Permanent+Marker&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <nav>
+        <header class="section-head">
+            <h1>Some Of My Latest Works</h1>
+        </header>
+        <div class="button-group">
+            <button class="button active" data-filter="*">Videography</button>
+            <button class="button"><a href="\index.html">Home</a></button>
+            <button class="button"><a href="\photography.html">Photography</a></button>
+            <!-- <button class="button" data-filter=".logo">Logo</button> -->
+        </div>
+    </nav>
+    <div class="container mx-auto">
+        <!-- <h2 class="text-3xl font-bold text-center mb-8">Videography</h2> -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="item rounded-lg shadow-lg overflow-hidden">
+                <!-- <a href="https://www.instagram.com/reel/DEtuVfNJsdU/?igsh=cHdjbHd3cHJ0MTUy">
+                    <img src="/images/img1.png" alt="Nature" class="w-full">
+                </a> -->
+                <a class="anchor_tags" href="videos/video1.mp4">
+                    <video class="video_items" src="videos/video1.mp4" controls preload="none"
+                        poster="images/img1.png"></video>
+                </a>
+                <div class="text">Deomali</div>
+            </div>
+            <div class="item rounded-lg shadow-lg overflow-hidden">
+                <!-- <a href="">
+                    <img src="/images/img2.jpg" alt="Nature" class="w-full">
+                </a> -->
+                <a class="anchor_tags" href="videos/video2.mp4">
+                    <video class="video_items" src="videos/video2.mp4" controls preload="none"
+                        poster="images/img2.jpg"></video>
+                </a>
+                <div class="text">Chitrakoot</div>
+            </div>
+            <div class="item rounded-lg shadow-lg overflow-hidden">
+                <!-- <a href="">
+                    <img src="/images/img31.png" alt="Nature" class="w-full">
+                </a> -->
+                <a class="anchor_tags" href="videos/video3.mp4">
+                    <video class="video_items" src="videos/video3.mp4" controls preload="none"
+                        poster="images/img3.png"></video>
+                </a>
+                <div class="text">Study</div>
+            </div>
+            <div class="item rounded-lg shadow-lg overflow-hidden">
+                <!-- <a href="">
+                    <img src="/images/img31.png" alt="Nature" class="w-full">
+                </a> -->
+                <a class="anchor_tags" href="videos/video4.mp4">
+                    <video class="video_items" src="videos/video4.mp4" controls preload="none"
+                        poster="images/img4.jpg"></video>
+                </a>
+                <div class="text">New Year</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
